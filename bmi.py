@@ -72,7 +72,7 @@ class BmiCalculator:
             else:
 
                 self.bmiLabel.config(text="")
-                self.result.config(text="", bg="#b5b5b1")
+                self.result.config(text="", bg="#ccffff")
                 messagebox.showinfo(title="Message",message="Invalid height and weight")
         else:
 
